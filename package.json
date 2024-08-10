@@ -6,6 +6,11 @@
   "scripts": {
     "build": "webpack"
   },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alxmcr/npm-002-ui-pastelito-jsx.git"
