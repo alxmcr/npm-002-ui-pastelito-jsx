@@ -1,0 +1,43 @@
+{
+  "name": "@aledev-org/npm-002-ui-pastelito-jsx",
+  "version": "0.0.5",
+  "description": "It is an UI library components built on React.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxmcr/npm-002-ui-pastelito-jsx.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "ui",
+    "components"
+  ],
+  "author": "Alejandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alxmcr/npm-002-ui-pastelito-jsx/issues"
+  },
+  "homepage": "https://github.com/alxmcr/npm-002-ui-pastelito-jsx#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}

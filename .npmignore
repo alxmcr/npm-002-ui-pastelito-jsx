@@ -1,0 +1,50 @@
+# Node modules (typically not needed in the package)
+node_modules/
+
+# Build artifacts and temporary files
+dist/
+build/
+tmp/
+temp/
+
+# Source maps (if applicable)
+*.map
+
+# Test files and directories
+test/
+tests/
+__tests__/
+
+# Documentation
+README.md
+
+# Config files (if they are not needed in the package)
+*.config.js
+*.config.json
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.nib
+*.swp
+*.swo
+
+# Others
+*.iml
+*.goutputstream-*
+*.sublime-project
+*.sublime-workspace
