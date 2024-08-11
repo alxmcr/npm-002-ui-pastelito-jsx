@@ -2,28 +2,26 @@ const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    library: "MyReactComponents",
+    library: "ui-pastelito",
     libraryTarget: "umd",
     umdNamedDefine: true,
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-        },
+        use: "ts-loader",
       },
     ],
   },
-  externals: [nodeExternals()],
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".ts", ".tsx", ".js"],
   },
+  externals: [nodeExternals()],
   mode: "production",
 };
