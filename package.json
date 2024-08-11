@@ -1,6 +1,6 @@
 {
   "name": "@aledev-org/npm-002-ui-pastelito-jsx",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "It is an UI library components built on React.js",
   "private": false,
   "publishConfig": {
@@ -8,6 +8,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*"
+  },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
