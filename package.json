@@ -1,6 +1,6 @@
 {
   "name": "@aledev-org/npm-002-ui-pastelito-jsx",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "It is an UI library components built on React.js",
   "private": false,
   "publishConfig": {
